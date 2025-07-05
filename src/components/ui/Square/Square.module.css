@@ -1,0 +1,10 @@
+.square {
+	height: 20px;
+	border-radius: 15px;
+	padding: 1em;
+	border: 1px solid white;
+}
+
+.square:hover {
+	background-color: #bbb7b7;
+}

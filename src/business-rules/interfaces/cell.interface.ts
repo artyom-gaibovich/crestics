@@ -1,5 +1,5 @@
-import type { CellType } from "../types/CellType.ts";
+import type { CellType } from '../types/CellType.ts';
 
 export interface ICell {
-  getCoords(): CellType;
+	getCoords(): CellType;
 }

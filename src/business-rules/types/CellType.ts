@@ -1,10 +1,10 @@
 export type BaseCellType = {
-  i: number;
-  j: number;
+	i: number;
+	j: number;
 };
 
 export type Player = {
-  name: string;
+	name: 'Крестик' | 'Нолик';
 };
 
 export type FilledCellType<T extends Player> = T & BaseCellType;

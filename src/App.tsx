@@ -1,11 +1,11 @@
 import './App.css';
-import GameLayout from './components/GameLayout/GameLayout.tsx';
+import Game from './components/ui/Game/Game.tsx';
 
 function App() {
 	return (
-		<>
-			<GameLayout></GameLayout>
-		</>
+		<div className="container">
+			<Game></Game>
+		</div>
 	);
 }
 
